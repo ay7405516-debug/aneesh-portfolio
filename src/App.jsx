@@ -74,7 +74,7 @@ function App() {
         {/* ================= FULL HERO VIDEO ================= */}
 <video
   className="hero-background-video"
-  src="/videos/hero-aneesh.mp4"
+  src={`${import.meta.env.BASE_URL}videos/hero-aneesh.mp4`}
   autoPlay
   muted
   loop
@@ -195,7 +195,7 @@ function App() {
 
       <div className="about-photo">
         <img
-          src="/images/id-card-aneesh.jpg"
+          src={`${import.meta.env.BASE_URL}images/id-card-aneesh.jpg`}
           alt="Aneesh Yadav"
         />
       </div>
